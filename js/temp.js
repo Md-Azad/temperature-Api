@@ -26,6 +26,7 @@ document.getElementById("btn-search").addEventListener('click',function(){
       
       // console.log(cityCondition);
       loadData(userInput)
+      takeData.value = '';
 })
 
 loadData('dhaka')
